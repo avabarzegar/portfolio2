@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(to right, red 50%, white 50%);
+}
+
+/* Apply the background to all elements inside the header */
+header * {
+    background: inherit;
+}
